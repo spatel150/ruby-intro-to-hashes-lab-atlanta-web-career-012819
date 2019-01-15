@@ -1,19 +1,29 @@
 def new_hash
-
+  hash = {}
+  return hash
 end
 
 def actor
-
+  new_actor = {:name => "Dwayne The Rock Johnson"}
+  return new_actor
 end
 
 def monopoly
-	monopoly = {}
-
+	monopoly = {
+	  :railroads => {}
+	}
+  return monopoly
 end
 
 def monopoly_with_second_tier
-	#copy and paste the monopoly hash you built in the previous method. We're going to add stuff to it here!
-
+	monopoly = {
+	  :railroads => {
+	    :pieces => 4,
+	    :names => {},
+	    :rent_in_dollars => {}
+	  }
+	}
+  return monopoly_with_second_tier
 end
 
 def monopoly_with_third_tier
